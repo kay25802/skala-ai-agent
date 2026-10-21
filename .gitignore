@@ -1,0 +1,33 @@
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model cache
+.cache/
+models/
+*.gguf
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
